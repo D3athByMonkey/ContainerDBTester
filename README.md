@@ -8,7 +8,8 @@ This is the code used to create the .net app to allow you to test connectivity t
 
 
 # YAML
-```apiVersion: v1
+```
+apiVersion: v1
 kind: Pod
 metadata:
   name: dbtester
@@ -20,5 +21,7 @@ spec:
     image: d3athbymonkey/container_db_tester:latest
     imagePullPolicy: Always
     command: ["Container.DBTester.exe"]
-    args: ["YOUR_CONNECTION_STRING", "YOUR_TABLE", "AMOUNT_OF_ROWS_TO_QUERY", "Add a 1 to continuously query"]
+    args: ["your connection string", "your table", "amount of rows", "yes for contious, nothing for single"]
+  nodeSelector:
+    kubernetes.io/os: windows
 ```
