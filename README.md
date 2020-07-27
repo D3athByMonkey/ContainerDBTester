@@ -1,4 +1,4 @@
-# ContainerDBTester
+# ContainerDBTester - .net - Windows
 This is the code used to create the .net app to allow you to test connectivity to a SQL database using a container. Right now you can easily use a YAML file to set yourself up. You simply need to add the following to the `args` section.
 
 1. Connection String
