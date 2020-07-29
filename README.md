@@ -25,5 +25,7 @@ spec:
   nodeSelector:
     kubernetes.io/os: windows
 ```
+# Lone Container
+If what you want is just the container itself you can easily pull it by running `docker pull d3athbymonkey/container_db_tester`. You can see the repo in docker hub [here](https://hub.docker.com/r/d3athbymonkey/container_db_tester).
 # DBTester - Python - Win/Linux
 There is another like minded pod you can deploy thats python based. You can find that [here](https://github.com/bqparker/dbtester)
