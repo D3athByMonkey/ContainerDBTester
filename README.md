@@ -25,3 +25,5 @@ spec:
   nodeSelector:
     kubernetes.io/os: windows
 ```
+# DBTester - Python - Win/Linux
+There is another like minded pod you can deploy thats python based. You can find that [here](https://github.com/bqparker/dbtester)
